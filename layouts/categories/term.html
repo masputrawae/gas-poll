@@ -4,7 +4,7 @@
 
   {{- $title := replaceRE "[-_]+" " " .Title | title }}
   <article class="markdown page">
-    <h1>{{ $title }}</h1>
+    <h1>In Category: {{ $title }}</h1>
     {{ .Content }}
 
     <ul>

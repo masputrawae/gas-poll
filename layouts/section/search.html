@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="markdown page">
+    <h1>{{ .Title }}</h1>
+    <hr>
+    <label class="search-bar" data-search="{{ "search.json" | relURL }}">
+      {{ partial "components/icon.html" (dict "name" "search" "class" "search__icon" "size" 18) }}
+      <input
+        type="search"
+        name="searchInput"
+        id="searchInput"
+        class="search-bar__input"
+        placeholder="Search Content..."
+        autocomplete="off" />
+    </label>
+
+    <nav class="results" id="searchContainerResults" hidden>
+      <h2>RESULTS SEARCH</h2>
+      <ul id="results" aria-live="polite"></ul>
+    </nav>
+
+  </article>
+{{ partialCached "headed/js.html" . }}
+{{ end }}
