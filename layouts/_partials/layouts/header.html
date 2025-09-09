@@ -1,17 +1,6 @@
-<a href="{{ site.BaseURL | relLangURL }}" class="brand">
-  <div class="brand__images">
-    {{ $filter := images.Process "resize 200x q100 webp" }}
-    {{ with resources.Get site.Params.logo }}
-      {{ with .Filter $filter }}
-        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Logo {{ site.Title }}" class="brand__logo">
-      {{ end }}
-    {{ end }}
-  </div>
-
-  <span class="brand__caption">
-    <h1 class="brand__title">{{ site.Title }}</h1>
-    <em class="brand__subtitle">{{ site.Params.subtitle }}</em>
-  </span>
+<a href="{{ site.BaseURL | relLangURL }}" class="header__brand">
+  <h1 class="header__title">{{ site.Title }}</h1>
+  <em class="header__subtitle">{{ site.Params.subtitle }}</em>
 </a>
 
 <button class="header__btn" id="menu-toggle">
