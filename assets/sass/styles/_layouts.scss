@@ -1,0 +1,109 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/variables" as v;
+
+.site {
+  background-color: var(--bg-base);
+  display: grid;
+  grid-template-columns: 14em minmax(0, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "sidebar header header"
+    "sidebar page page"
+    "sidebar footer footer";
+
+  &__header {
+    grid-area: header;
+  }
+
+  &__sidebar {
+    grid-area: sidebar;
+  }
+
+  &__main {
+    grid-area: page;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+}
+
+// HEADER > *
+.header {
+  padding: 2em;
+  background-color: var(--bg-second);
+  border-block-end: 1px dotted var(--border-base);
+
+  &__btn {
+    display: none;
+  }
+}
+
+.brand {
+  @include m.flex-justify(space-between, center);
+  gap: 1em;
+  max-width: 80ch;
+  margin: 0 auto;
+
+  &__images {
+    aspect-ratio: 1/1;
+    width: 130px;
+    border-radius: 99999em;
+    overflow: hidden;
+    border: 2px dotted var(--border-second);
+    box-shadow: var(--shadow-md);
+  }
+
+  &__logo {
+    object-fit: cover;
+    filter: grayscale(1);
+  }
+
+  &__title {
+    color: var(--text-title);
+    font-size: v.$fs-10xl;
+  }
+
+  &__subtitle {
+    color: var(--text-muted);
+    font-style: normal;
+  }
+}
+
+// SIDEBAR & NAVIGATION
+.sidebar {
+  position: sticky;
+  inset-block-start: 0;
+  height: 100dvh;
+  padding: 1em;
+  border-inline-end: 1px solid var(--border-base);
+
+  &__label {
+    font-size: v.$fs-lg;
+    font-weight: 600;
+    color: var(--text-title);
+    border-bottom: 1px dotted var(--border-second);
+  }
+}
+
+.nav {
+  margin-block: 1em;
+
+  &__item {
+    margin-inline-start: 0.5em;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.5em;
+    padding: 0.12em;
+    color: var(--text-muted);
+
+    &:hover {
+      color: var(--text-title);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "headed/head.html" . }}
+</head>
+<body class="site">
+  <header class="site__header header">
+    {{ partial "layouts/header.html" . }}
+  </header>
+  <nav class="site__sidebar sidebar">
+    {{- partial "components/menu.html" (dict "menuID" "main" "page" . "label" "MAIN MENU") }}
+    {{- partial "components/menu.html" (dict "menuID" "special" "page" . "label" "SPECIAL PAGES") }}
+    {{- partial "components/menu.html" (dict "menuID" "social" "page" . "label" "SOCIAL MEDIA") }}
+  </nav>
+  <main class="site__main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site__footer">
+    {{ partial "layouts/footer.html" . }}
+  </footer>
+</body>
+</html>
