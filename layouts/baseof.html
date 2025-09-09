@@ -7,7 +7,7 @@
   <header class="site__header header">
     {{ partial "layouts/header.html" . }}
   </header>
-  <nav class="site__sidebar sidebar">
+  <nav class="site__sidebar sidebar" id="sidebar">
     {{- partial "components/menu.html" (dict "menuID" "main" "page" . "label" "MAIN MENU") }}
     {{- partial "components/menu.html" (dict "menuID" "special" "page" . "label" "SPECIAL PAGES") }}
     {{- partial "components/menu.html" (dict "menuID" "social" "page" . "label" "SOCIAL MEDIA") }}
@@ -18,5 +18,12 @@
   <footer class="site__footer footer">
     {{ partial "layouts/footer.html" . }}
   </footer>
+  <script>
+    (()=>{
+      document.getElementById("toggle-menu").addEventListener("click", ()=>{
+        document.getElementById("sidebar").classList.toggle("sidebar--is-active")
+      })
+    })();
+  </script>
 </body>
 </html>
