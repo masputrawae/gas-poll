@@ -3,7 +3,9 @@
 @use "../abstracts/variables" as v;
 
 html {
+  @include m.custom-scrollbar(transparent, var(--text-title));
   padding: 1em;
+  letter-spacing: 0.03em;
 }
 
 .site {
@@ -97,6 +99,31 @@ html {
 // MAIN
 .main {
   padding-block: 2.5em;
+}
+
+.taxonomy {
+  margin-block-end: 3em;
+  &__label {
+    background-color: var(--bg-second);
+    box-shadow: var(--shadow-sm);
+    border: none;
+    padding-inline: 1em;
+    border-radius: 0.15em;
+  }
+
+  &__list {
+    padding: 1em 3em;
+    background-color: var(--bg-second);
+    box-shadow: var(--shadow-sm);
+  }
+
+  &__link {
+    @include m.flex-justify(space-between, center);
+    color: var(--text-muted);
+    &:hover {
+      color: var(--text-title);
+    }
+  }
 }
 
 // FOOTER

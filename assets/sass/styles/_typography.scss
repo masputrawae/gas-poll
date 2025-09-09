@@ -210,7 +210,7 @@ html {
     p:first-of-type::before,
     p:last-of-type::after {
       position: absolute;
-      color: var(--link);
+      color: var(--text-title);
       line-height: 1;
       font-size: v.$fs-9xl;
     }
