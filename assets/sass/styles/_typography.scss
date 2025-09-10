@@ -11,6 +11,19 @@ html {
   font-weight: 400;
 }
 
+.site {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.65;
+  letter-spacing: 0.03em;
+  overflow-x: hidden;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
 h1,
 h2,
 h3,
@@ -30,12 +43,12 @@ h2 {
 }
 
 h1 {
-  font-size: v.$fs-2xl;
+  font-size: v.$fs-5xl;
   margin-block-start: 0;
 }
 
 h2 {
-  font-size: v.$fs-xl;
+  font-size: v.$fs-4xl;
 }
 
 h3,
@@ -89,7 +102,7 @@ hr {
   display: flow-root;
   border: none;
   height: 2px;
-  background-color: var(--border-base);
+  background-color: var(--border-second);
 }
 
 ul,
