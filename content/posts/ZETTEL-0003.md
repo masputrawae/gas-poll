@@ -3,6 +3,7 @@ id: "ZETTEL-0003"
 title: "Syntesis Ide"
 date: 2024-12-20T14:37:22+0700
 tags: ["terminal", "nextjs", "sketch", "ai", "terraform", "agile", "flutter", "bash", "mobile", "zsh", "java", "api", "docker", "iot", "javascript", "jest", "elasticsearch"]
+stage: ["Satu", "Dua", "Tiga"]
 ---
 
 Ex do esse et velit sint amet non pariatur id minim velit incididunt ullamco. Elit irure consectetur dolor dolore tempor nulla fugiat cupidatat tempor. Ut adipisicing irure et eu dolore amet duis voluptate. Enim esse aliqua ex aliqua veniam occaecat enim. Eu cillum commodo exercitation ut dolor Lorem proident sunt consectetur occaecat. Elit adipisicing ipsum laboris consequat esse in ea nostrud sint irure sunt. Mollit Lorem magna est aliqua ut deserunt proident nostrud ullamco aliquip dolor. Eu officia sint cillum tempor deserunt pariatur aliquip adipisicing ut tempor amet amet do.

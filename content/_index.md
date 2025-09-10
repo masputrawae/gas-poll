@@ -21,7 +21,8 @@ Exercitation Lorem sit voluptate pariatur. Anim eiusmod mollit est excepteur dol
 ## Ea velit
 
 Ullamco `non` in cupidatat aliqua[^1] non. Qui id incididunt cillum irure fugiat consectetur fugiat minim est enim sit anim. Sint irure non sunt anim laboris eiusmod voluptate[^2] velit. ==Cupidatat== dolor adipisicing deserunt eiusmod sit laborum exercitation labore. Sit fugiat tempor exercitation[^3] reprehenderit non id adipisicing velit *fugiat*. Ex cupidatat magna Lorem ea occaecat Lorem cupidatat **incididunt**.
-
+![Minion](https://octodex.github.com/images/minion.png "|width=100")
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat|float=left|width=400")
 Velit ad Lorem amet velit nulla eu eiusmod qui.
 
 > Nisi do anim reprehenderit[^4] adipisicing occaecat sint. Ipsum laboris in ad eiusmod proident quis dolore nostrud. Sunt nostrud nisi enim deserunt incididunt commodo et ex. Quis labore do sit mollit consectetur velit esse mollit. Et veniam nisi officia amet sunt aliquip labore mollit non. Id cillum consectetur sunt ea est in irure enim Lorem proident pariatur aute eiusmod. Tempor occaecat exercitation velit.
@@ -96,9 +97,6 @@ Center aligned columns
 | ext    | extension to be used for dest files. |
 
 ## Commodo qui minim 
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 Like links, Images also have a footnote style syntax
 

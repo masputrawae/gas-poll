@@ -3,6 +3,7 @@ id: "ZETTEL-0005"
 title: "Mental Model"
 date: 2024-06-05T01:30:41+0700
 tags: ["agile", "docker", "firebase", "windows", "nginx", "bash", "html", "api", "database", "tailwind", "linux", "jamstack", "blockchain", "webrtc", "cloud", "performance", "bootstrap", "raspberrypi"]
+stage: ["Satu", "Dua", "Tiga"]
 ---
 
 Quis do laboris nulla voluptate sunt mollit ullamco cupidatat in non dolor. Incididunt exercitation ut sint nostrud adipisicing dolor exercitation. Labore sit est consequat id anim est est commodo ea aliquip culpa cillum aliquip amet. Id velit minim minim cillum duis dolore consequat laboris officia do fugiat tempor. Laboris sunt duis id mollit quis reprehenderit. Quis elit adipisicing nostrud deserunt duis labore non enim eiusmod. Nostrud sunt Lorem mollit ut irure sint do veniam. Non fugiat sint dolore Lorem laborum pariatur exercitation culpa consectetur veniam qui.

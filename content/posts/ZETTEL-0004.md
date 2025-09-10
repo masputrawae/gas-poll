@@ -3,6 +3,7 @@ id: "ZETTEL-0004"
 title: "Syntesis Ide"
 date: 2025-08-01T09:12:53+0700
 tags: ["ai", "bash", "html", "golang", "nodejs", "vscode", "automation", "datastructure", "redis", "postgresql", "kafka", "api", "javascript", "angular", "linux", "microservices", "terminal", "webdev", "career", "java", "seo", "arduino", "database", "vue", "blender", "raspberrypi", "frontend", "fish", "backend", "kubernetes", "design", "neovim", "docker", "flutter", "graphql", "react", "agile", "ux", "opensource", "devops", "jest", "sketch", "ui", "mongodb", "grafana", "accessibility", "css", "digitalocean", "bootstrap"]
+stage: ["Satu", "Dua", "Tiga"]
 ---
 
 Proident reprehenderit laboris sunt sit in deserunt amet esse nisi ad sint quis ipsum. Ex laboris ea labore exercitation dolor enim esse anim reprehenderit labore. Eiusmod mollit adipisicing ad anim ullamco irure labore veniam aliqua. Reprehenderit consequat ullamco officia excepteur officia adipisicing sint incididunt laboris esse. Aliqua esse minim aute qui dolor. Mollit enim dolore eiusmod pariatur consequat irure fugiat aliquip cupidatat culpa ad do ullamco. Ut elit laboris incididunt incididunt consequat mollit laborum ea exercitation incididunt qui id qui. Ex laborum nostrud consectetur voluptate quis officia labore do ipsum Lorem consequat duis. Duis occaecat aute esse qui laboris pariatur. Est est commodo commodo elit occaecat enim dolor nulla non et laboris. Aliquip et quis eu sint proident fugiat id eiusmod est. Labore ipsum elit esse adipisicing aute eu elit.

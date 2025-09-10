@@ -30,6 +30,7 @@ h3,
 h4,
 h5,
 h6 {
+  display: flow-root;
   line-height: 1.75;
   font-weight: 600;
   color: var(--text-title);
@@ -104,8 +105,8 @@ a {
 }
 
 hr {
-  margin-block: 2em;
   display: flow-root;
+  margin-block: 2em;
   border: none;
   height: 2px;
   background-color: var(--border-second);
@@ -115,6 +116,7 @@ ul,
 ol {
   padding-inline-start: 1.5em;
   margin-block: 1em;
+  display: flow-root;
 }
 
 li {
@@ -178,6 +180,7 @@ dd {
   border-radius: 0.25em;
   border: 1px solid var(--border-base);
   border-block-end: none;
+  box-shadow: var(--shadow-sm);
 }
 
 table {
@@ -255,7 +258,6 @@ tbody tr:nth-child(even) {
   }
 }
 
-
 // ABBR
 abbr[title] {
   position: relative;
@@ -282,6 +284,7 @@ abbr[title] {
 
 // BLOCKQUOTE
 blockquote {
+  display: flow-root;
   border-inline-start: 4px solid var(--link);
   padding-inline-start: 1em;
   margin-inline-start: 1em;
@@ -294,6 +297,7 @@ blockquote {
 
 // CALLOUT
 .callout {
+  display: flow-root;
   margin-block: 2em;
   border: 1px solid var(--callout-border);
   background-color: var(--callout-bg);
@@ -322,4 +326,51 @@ blockquote {
   .icon {
     color: var(--callout-color);
   }
+}
+
+// IMAGE
+.figure {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+  max-width: 100%;
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1));
+  }
+
+  &__caption {
+    font-size: v.$fs-sm;
+    color: var(--text-muted);
+    margin-top: 0.5em;
+    line-height: 1.4;
+  }
+}
+
+.float {
+  margin: 2em;
+  
+  @include b.min(md) {
+    &--left {
+      float: left;
+      margin-right: 2em;
+      text-align: left;
+    }
+    &--right {
+      float: right;
+      margin-left: 2em;
+      text-align: right;
+    }
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }

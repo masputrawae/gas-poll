@@ -3,6 +3,7 @@ id: "ZETTEL-0002"
 title: "Second-Order Thinking"
 date: 2024-01-13T18:30:08+0700
 tags: ["microservices", "linux", "performance", "sass", "database", "elasticsearch", "agile", "productivity", "vscode", "accessibility", "python", "terminal", "design", "devops", "algorithm"]
+stage: ["Satu", "Dua"]
 ---
 
 Tempor et ipsum magna ad incididunt eu ipsum ad culpa sunt proident anim Lorem. Elit veniam ea consequat labore esse esse. Eiusmod laboris occaecat incididunt fugiat aliquip esse excepteur sunt. Mollit voluptate aliquip amet deserunt nisi reprehenderit sint. Ullamco excepteur proident dolor labore est nulla et consectetur. Ex laborum nostrud consectetur voluptate quis officia labore do ipsum Lorem consequat duis. Duis occaecat aute esse qui laboris pariatur. Est est commodo commodo elit occaecat enim dolor nulla non et laboris. Aliquip et quis eu sint proident fugiat id eiusmod est. Labore ipsum elit esse adipisicing aute eu elit.
