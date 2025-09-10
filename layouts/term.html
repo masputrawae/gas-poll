@@ -4,14 +4,27 @@
     <h1>{{ $title }}</h1>
     {{ .Content }}
 
-    <ul>
-      {{ range .Pages }}
-        {{- $title := replaceRE "[-_]+" " " .Title | title }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ $title }}</a> |
-          {{ partial "components/date-time.html" (dict "date" .Date ) }}
-        </li>
-      {{ end }}
-    </ul>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Created</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Pages }}
+            {{- $title := replaceRE "[-_]+" " " .Title | title }}
+            <tr>
+              <td><a href="{{ .RelPermalink }}">{{ $title }}</a></td>
+              <td>{{ partial "components/date-time.html" (dict "date" .Date ) }}</td>
+              <td>{{ partial "components/date-time.html" (dict "date" .Lastmod ) }}</td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
   </article>
 {{ end }}

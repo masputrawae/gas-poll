@@ -3,13 +3,11 @@
 <head>
   {{ partial "headed/head.html" . }}
 </head>
-<body>
-  <div class="site">
-    {{ partial "layouts/header.html" . }}
-    {{ partial "layouts/sidebar.html" . }}
-    <main class="main">{{ block "main" . }}{{ end }}</main>
-    {{ partial "layouts/footer.html" . }}
-  </div>
+<body class="site">
+  {{ partial "layouts/header.html" . }}
+  {{ partial "layouts/sidebar.html" . }}
+  <main class="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "layouts/footer.html" . }}
   {{ partial "headed/embed-js.html" . }}
 </body>
 </html>

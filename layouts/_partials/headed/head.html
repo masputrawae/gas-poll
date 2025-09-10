@@ -1,4 +1,25 @@
-{{ partialCached "headed/font.html" . }}
+<script>
+  (async () => {
+    function applyTheme(e) {
+      if (e.matches) {
+        document.documentElement.dataset.theme = "dark";
+      } else {
+        document.documentElement.dataset.theme = "light";
+      }
+    }
+
+    if (window.matchMedia) {
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      applyTheme(darkScheme);
+      darkScheme.addEventListener("change", applyTheme);
+    } else {
+      document.documentElement.dataset.theme = "light";
+    }
+  })();
+</script>
+
+{{- partialCached "headed/font.html" . }}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>

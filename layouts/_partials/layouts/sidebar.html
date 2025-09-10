@@ -1,7 +1,7 @@
 <nav class="sidebar" id="sidebar">
   {{- partial "components/menu.html" (dict "menuID" "main" "page" . "label" "MAIN MENU") }}
-  <hr />
+  <hr class="sidebar__hr" />
   {{- partial "components/menu.html" (dict "menuID" "special" "page" . "label" "SPECIAL PAGES") }}
-  <hr />
+  <hr class="sidebar__hr" />
   {{- partial "components/menu.html" (dict "menuID" "social" "page" . "label" "SOCIAL MEDIA") }}
 </nav>

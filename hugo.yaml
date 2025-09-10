@@ -87,22 +87,22 @@ menus:
     - name: HOME
       pageRef: /
       weight: 10
-    
-    - name: RECENT CHANGE
-      pageRef: /recent_change
-      weight: 20
 
     - name: RANDOM PAGE
       pageRef: /random_page
-      weight: 40
+      weight: 20
       
     - name: TAGS
       pageRef: /tags
-      weight: 50
+      weight: 30
+    
+    - name: CATEGORIES
+      pageRef: /categories
+      weight: 30
     
     - name: SEARCH
       pageRef: /search
-      weight: 60
+      weight: 40
   
   # =================== SPECIAL
   special:
@@ -204,7 +204,7 @@ markup:
   highlight:
     codeFences: true
     guessSyntax: true
-    style: "github"
+    style: "github-dark"
     noClasses: false
     lineNumbersInTable: false
     lineNos: false

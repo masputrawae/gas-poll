@@ -40,6 +40,7 @@
   box-shadow: var(--shadow-sm);
   width: 13em;
   padding: 0.25em 1em;
+  border-inline-end: 1px solid var(--border-second);
 
   position: fixed;
   inset-inline-start: -100%;
@@ -58,12 +59,18 @@
   &__label {
     font-size: v.$fs-lg;
   }
+
+  &__hr {
+    margin-block: 1em;
+  }
 }
 
 .nav {
   &__link {
+    display: inline-block;
     font-size: v.$fs-sm;
     color: var(--text-title);
+    width: 100%;
   }
 }
 
@@ -71,22 +78,44 @@
 .main {
   padding-block-start: 6em;
   padding-inline: 1em;
-  min-height: 70dvh;
+  min-height: 100dvh;
 }
 
 // TAXONOMY
 .taxonomy {
+  margin-block-end: 1em;
+  padding-inline: 1.5em;
+
   &__link {
+    @include m.flex-justify(space-between, center);
     color: var(--text-title);
+  }
+}
+
+// SEARCH
+.search-bar {
+  @include m.flex-justify(center, center);
+  gap: 0.5em;
+  width: 100%;
+  padding: 0.75em 1.5em;
+  background-color: var(--bg-second);
+  border-radius: 0.25em;
+  box-shadow: var(--shadow-sm);
+
+  &__input {
+    width: 100%;
+    outline: none;
   }
 }
 
 // FOOTER
 .footer {
   padding: 1em;
+  margin-block-start: 2em;
   background-color: var(--bg-second);
   border-block-start: 1px solid var(--border-second);
   box-shadow: var(--shadow-sm);
+
   p {
     font-size: v.$fs-sm;
     margin: 0;
@@ -110,7 +139,6 @@
       "header header header"
       "sidebar main main"
       "sidebar footer footer";
-    gap: 1em;
   }
 
   .header {
@@ -134,7 +162,9 @@
 }
 
 @include b.min(2xl) {
-  .site {
+  .main {
+    width: 100%;
     max-width: 87.5em;
+    margin: 0 auto;
   }
 }

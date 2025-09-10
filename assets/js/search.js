@@ -36,7 +36,7 @@ const searchHandler = async () => {
         ? results
             .map((res) => {
               const item = res.item;
-              return `<li><a href="${item.url}">${item.title}</a> | <span>${item.date}</span></li>`;
+              return `<li><a href="${item.url}">${item.title}</a></li>`;
             })
             .join("")
         : `<p class="class="link-broken">No results found for: "${query}"</p>`;
