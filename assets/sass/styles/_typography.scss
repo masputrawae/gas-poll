@@ -4,218 +4,184 @@
 
 html {
   @include m.custom-scrollbar(var(--bg-base), var(--text-title));
-  background-color: var(--bg-html);
+  background-color: var(--bg-base);
   color: var(--text-base);
   font-size: v.$fs-default;
+  font-family: v.$font-main;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-:where(.markdown) {
-  font-size: 15px;
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-  line-height: 1.6;
-  overflow-x: hidden;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  hyphens: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.75;
+  font-weight: 600;
+  color: var(--text-title);
+  text-shadow: var(--text-shadow-sm);
+  margin-block: 1em 0.25em;
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    line-height: 1.75;
-    font-weight: 600;
-    color: var(--text-title);
-    text-shadow: var(--text-shadow-sm);
-    margin-block: 1em 0.25em;
-  }
+h1,
+h2 {
+  border-block-end: 1px dotted var(--border-base);
+}
 
-  h1,
-  h2 {
-    border-block-end: 1px dotted var(--border-base);
-  }
+h1 {
+  font-size: v.$fs-2xl;
+  margin-block-start: 0;
+}
 
-  h1 {
-    font-size: v.$fs-2xl;
-    margin-block-start: 0;
-  }
+h2 {
+  font-size: v.$fs-xl;
+}
 
-  h2 {
-    font-size: v.$fs-xl;
-  }
+h3,
+h4,
+h5,
+h6 {
+  font-size: v.$fs-lg;
+}
 
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: v.$fs-lg;
-  }
+p {
+  margin-block-end: 1em;
 
-  p {
+  + p {
+    margin-block-start: 1.5em;
     margin-block-end: 1em;
+  }
+}
 
-    + p {
-      margin-block-start: 1.5em;
-      margin-block-end: 1em;
-    }
-  }
+b,
+strong {
+  color: var(--text-title);
+  font-weight: 700;
+}
 
-  b,
-  strong {
-    color: var(--text-title);
-    font-weight: 700;
-  }
+small {
+  font-size: 80%;
+}
 
-  small {
-    font-size: 80%;
-  }
+a {
+  color: var(--link);
 
-  a {
-    color: var(--link);
+  &:hover {
+    color: var(--link-hover);
+  }
+}
 
-    &:hover {
-      color: var(--link-hover);
-    }
+.link {
+  text-decoration: underline;
+  &:visited {
+    color: var(--link-visited);
   }
+}
 
-  .link {
-    text-decoration: underline;
-    &:visited {
-      color: var(--link-visited);
-    }
-  }
+.broken-link,
+.link-broken {
+  color: red;
+}
 
-  .broken-link,
-  .link-broken {
-    color: red;
-  }
+hr {
+  margin-block: 2em;
+  display: flow-root;
+  border: none;
+  height: 2px;
+  background-color: var(--border-base);
+}
 
-  hr {
-    margin-block: 2em;
-    display: flow-root;
-    border: none;
-    height: 2px;
-    background-color: var(--border-base);
-  }
+ul,
+ol {
+  padding-inline-start: 1.5em;
+  margin-block: 1em;
+}
 
-  ul,
-  ol {
-    padding-inline-start: 1.5em;
-    margin-block: 1em;
-  }
+li {
+  margin-block: 0.5em;
+}
 
-  li {
-    margin-block: 0.5em;
-  }
+ul ul,
+ol ol {
+  padding-inline-start: 1.25em;
+}
 
-  ul ul,
-  ol ol {
-    padding-inline-start: 1.25em;
-  }
+/* ===== Unordered List (ul) ===== */
+ul:where(:not(:where(ul, ol) ul)) {
+  list-style-type: disc;
+}
+ul ul {
+  list-style-type: circle;
+}
+ul ul ul {
+  list-style-type: square;
+}
+ul ul ul ul {
+  list-style-type: disc;
+}
 
-  /* ===== Unordered List (ul) ===== */
-  ul:where(:not(:where(ul, ol) ul)) {
-    list-style-type: disc;
-  }
-  ul ul {
-    list-style-type: circle;
-  }
-  ul ul ul {
-    list-style-type: square;
-  }
-  ul ul ul ul {
-    list-style-type: disc;
-  }
+/* ===== Ordered List (ol) ===== */
+ol:where(:not(:where(ul, ol) ol)) {
+  list-style-type: decimal;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+ol ol ol {
+  list-style-type: lower-roman;
+}
+ol ol ol ol {
+  list-style-type: decimal;
+}
 
-  /* ===== Ordered List (ol) ===== */
-  ol:where(:not(:where(ul, ol) ol)) {
-    list-style-type: decimal;
-  }
-  ol ol {
-    list-style-type: lower-alpha;
-  }
-  ol ol ol {
-    list-style-type: lower-roman;
-  }
-  ol ol ol ol {
-    list-style-type: decimal;
-  }
+// DEFINITION LIST
+dl {
+  margin-block: 1em;
+}
 
-  // DEFINITION LIST
-  dl {
-    margin-block: 1em;
+dt {
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+dd {
+  margin-inline-start: 1.5em;
+  margin-block: 0.25em 0.5em;
+}
+
+// ABBR
+abbr[title] {
+  position: relative;
+  text-decoration: underline dotted;
+  cursor: help;
+
+  &:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-second);
+    color: var(--text-base);
+    padding: 0.25em 0.6em;
+    margin-inline: 1.5em;
+    border-radius: 0.25em;
+    font-size: 0.875em;
+    white-space: nowrap;
+    box-shadow: var(--shadow-md);
+    z-index: 10;
   }
+}
 
-  dt {
-    font-weight: 600;
-    margin-top: 0.5em;
-  }
-
-  dd {
-    margin-inline-start: 1.5em;
-    margin-block: 0.25em 0.5em;
-  }
-
-  // ABBR
-  abbr[title] {
-    position: relative;
-    text-decoration: underline dotted;
-    cursor: help;
-
-    &:hover::after {
-      content: attr(title);
-      position: absolute;
-      bottom: 125%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--bg-second);
-      color: var(--text-base);
-      padding: 0.25em 0.6em;
-      margin-inline: 1.5em;
-      border-radius: 0.25em;
-      font-size: 0.875em;
-      white-space: nowrap;
-      box-shadow: var(--shadow-md);
-      z-index: 10;
-    }
-  }
-
-  // BLOCKQUOTE
-  blockquote {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: center;
-    
-    position: relative;
-    margin: 6em auto;
-    color: var(--text-muted);
-    font-style: italic;
-    quotes: "“" "”" "‘" "’";
-
-    p:first-of-type::before {
-      content: open-quote;
-      left: 0em;
-      top: -0.5em;
-    }
-
-    p:last-of-type::after {
-      content: close-quote;
-      right: 0em;
-      bottom: -1em;
-    }
-
-    p:first-of-type::before,
-    p:last-of-type::after {
-      position: absolute;
-      color: var(--text-title);
-      line-height: 1;
-      font-size: v.$fs-9xl;
-    }
-  }
+// BLOCKQUOTE
+blockquote {
+  border-inline-start: 4px solid var(--link);
+  padding-inline-start: 1em;
+  margin-inline-start: 1em;
+  font-style: italic;
+  position: relative;
+  color: var(--text-muted);
+  font-style: italic;
+  quotes: "“" "”" "‘" "’";
 }

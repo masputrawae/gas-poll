@@ -86,96 +86,66 @@ menus:
   main:
     - name: HOME
       pageRef: /
-      params:
-        icon: "house"
       weight: 10
     
     - name: RECENT CHANGE
       pageRef: /recent_change
-      params:
-        icon: "clock-history"
       weight: 20
 
     - name: RANDOM PAGE
       pageRef: /random_page
-      params:
-        icon: "shuffle"
       weight: 40
       
     - name: TAGS
       pageRef: /tags
-      params:
-        icon: "tags"
       weight: 50
     
     - name: SEARCH
       pageRef: /search
-      params:
-        icon: "search"
       weight: 60
   
   # =================== SPECIAL
   special:
     - name: ABOUT ME
       pageRef: /specials/about
-      params:
-        icon: "person-circle"
       weight: 10
     
     - name: DISCLAIMER
       pageRef: /specials/disclaimer
-      params:
-        icon: "exclamation-circle"
       weight: 20
 
     - name: LICENSE
       pageRef: /specials/license
-      params:
-        icon: "c-circle"
       weight: 40
       
     - name: CREDITS
       pageRef: /specials/credit
-      params:
-        icon: "patch-check"
       weight: 50
 
     - name: POLICY PRIVACY
       pageRef: /specials/credit
-      params:
-        icon: "shield-check"
       weight: 60
   
   # =================== SOCIAL
   social:
     - name: TWITTER X
       url: https://x.com/@Masputrawae
-      params:
-        icon: "twitter-x"
       weight: 10
     
     - name: INSTAGRAM
       url: https://www.example.com/
-      params:
-        icon: "instagram"
       weight: 20
 
     - name: FACEBOOK
       url: https://www.example.com/
-      params:
-        icon: "facebook"
       weight: 40
       
     - name: DISCORD
       url: https://www.example.com/
-      params:
-        icon: "discord"
       weight: 50
 
     - name: GITHUB
       url: https://www.example.com/
-      params:
-        icon: "github"
       weight: 60
 
 #=================== MARKUP

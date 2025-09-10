@@ -31,12 +31,7 @@
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end -}}
-      >
-        {{- with .Params.icon }}
-          {{ partial "components/icon.html" (dict "name" . ) }}
-        {{- end }}
-        <span>{{ $name }}</span>
-      </a>
+      >{{ $name }}</a>
     </li>
   {{- end }}
 {{- end }}

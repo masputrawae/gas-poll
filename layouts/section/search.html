@@ -1,7 +1,6 @@
 {{ define "main" }}
-  <article class="markdown page">
+  <article>
     <h1>{{ .Title }}</h1>
-    <hr>
     <label class="search-bar" data-search="{{ "search.json" | relURL }}">
       {{ partial "components/icon.html" (dict "name" "search" "class" "search__icon" "size" 18) }}
       <input
