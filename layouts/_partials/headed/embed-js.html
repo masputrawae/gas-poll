@@ -4,4 +4,12 @@
       document.getElementById("sidebar").classList.toggle("sidebar--is-active");
     });
   })();
+  function openImage(el) {
+    const dialog = document.getElementById("lightbox");
+    const img = document.getElementById("lightbox-img");
+    img.src = el.src;
+    img.alt = el.alt;
+    dialog.showModal();
+    dialog.onclick = () => dialog.close();
+  }
 </script>
