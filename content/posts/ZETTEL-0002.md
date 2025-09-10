@@ -9,15 +9,15 @@ Tempor et ipsum magna ad incididunt eu ipsum ad culpa sunt proident anim Lorem. 
 
 > **Catatan**: Lorem ex amet et quis dolore enim aute elit nulla ea enim. Dolor esse consequat amet cillum commodo duis. Pariatur voluptate tempor pariatur anim fugiat est dolore. Officia Lorem ullamco consectetur velit est ea fugiat officia Lorem ea nisi. Et proident adipisicing ut proident mollit incididunt magna non fugiat Lorem ea nostrud reprehenderit mollit. Fugiat velit ullamco culpa commodo amet excepteur sit id anim anim eiusmod. Aute officia culpa sit Lorem dolore.
 
-Lihat juga: [[ZETTEL-0003]]
+Lihat juga: [ZETTEL-0003](/posts/ZETTEL-0003)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0006]]
-- [[ZETTEL-0015]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0005]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0003]]
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0005](/posts/ZETTEL-0005)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0003](/posts/ZETTEL-0003)
 
 *ID: ZETTEL-0002*

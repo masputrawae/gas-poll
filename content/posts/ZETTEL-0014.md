@@ -16,11 +16,11 @@ echo
 
 ## Tautan Terkait
 
-- [[ZETTEL-0007]]
-- [[ZETTEL-0004]]
-- [[ZETTEL-0005]]
-- [[ZETTEL-0008]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0015]]
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0005](/posts/ZETTEL-0005)
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
 
 *ID: ZETTEL-0014*

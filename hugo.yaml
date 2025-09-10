@@ -235,7 +235,7 @@ markup:
     codeFences: true
     guessSyntax: true
     style: "github"
-    noClasses: true
+    noClasses: false
     lineNumbersInTable: false
     lineNos: false
     anchorLineNos: false

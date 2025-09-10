@@ -13,19 +13,19 @@ Officia cillum et cillum tempor quis labore laboris proident fugiat veniam. Est 
 
 > **Catatan**: Aliquip nostrud pariatur in ea ipsum mollit. Veniam culpa voluptate esse elit Lorem pariatur aliqua id ad incididunt. Sint eiusmod Lorem pariatur aute nostrud. Lorem laboris id voluptate proident veniam. Pariatur occaecat duis quis incididunt ex non consectetur est magna aliquip dolor officia. Occaecat sunt pariatur minim exercitation labore ullamco enim. Officia occaecat mollit incididunt irure amet veniam eu officia pariatur sunt nisi.
 
-Lihat juga: [[ZETTEL-0009]]
+Lihat juga: [ZETTEL-0009](/posts/ZETTEL-0009)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0015]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0007]]
-- [[ZETTEL-0014]]
-- [[ZETTEL-0009]]
-- [[ZETTEL-0004]]
-- [[ZETTEL-0006]]
-- [[ZETTEL-0003]]
-- [[ZETTEL-0011]]
-- [[ZETTEL-0002]]
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0014](/posts/ZETTEL-0014)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0003](/posts/ZETTEL-0003)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
+- [ZETTEL-0002](/posts/ZETTEL-0002)
 
 *ID: ZETTEL-0001*

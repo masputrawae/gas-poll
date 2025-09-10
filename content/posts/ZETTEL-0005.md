@@ -18,12 +18,12 @@ console.log()
 
 ## Tautan Terkait
 
-- [[ZETTEL-0006]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0008]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0004]]
-- [[ZETTEL-0003]]
-- [[ZETTEL-0009]]
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0003](/posts/ZETTEL-0003)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
 
 *ID: ZETTEL-0005*

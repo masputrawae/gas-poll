@@ -12,18 +12,18 @@ Ex laborum nostrud consectetur voluptate quis officia labore do ipsum Lorem cons
 
 > **Catatan**: Esse veniam ut do id. Mollit nulla reprehenderit eu cupidatat qui aliquip fugiat incididunt qui nisi reprehenderit qui. Enim esse adipisicing officia dolor amet non amet eu excepteur. Pariatur nulla mollit culpa ullamco ipsum sint aute. Cillum officia aliquip adipisicing culpa fugiat minim ut magna laboris esse mollit laborum ea occaecat. Officia excepteur occaecat aute ex laboris adipisicing.
 
-Lihat juga: [[ZETTEL-0004]]
+Lihat juga: [ZETTEL-0004](/posts/ZETTEL-0004)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0008]]
-- [[ZETTEL-0015]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0012]]
-- [[ZETTEL-0002]]
-- [[ZETTEL-0011]]
-- [[ZETTEL-0007]]
-- [[ZETTEL-0009]]
-- [[ZETTEL-0006]]
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
+- [ZETTEL-0002](/posts/ZETTEL-0002)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
+- [ZETTEL-0006](/posts/ZETTEL-0006)
 
 *ID: ZETTEL-0013*

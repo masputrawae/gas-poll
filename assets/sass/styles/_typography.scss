@@ -3,25 +3,25 @@
 @use "../abstracts/variables" as v;
 
 html {
-  background-color: var(--cl-fix-white);
+  @include m.custom-scrollbar(var(--bg-base), var(--text-title));
+  background-color: var(--bg-html);
   color: var(--text-base);
   font-size: v.$fs-default;
-  font-family: v.$font-serif;
   font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :where(.markdown) {
   font-size: 15px;
   display: block;
-  max-width: 80ch;
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   line-height: 1.6;
   overflow-x: hidden;
   word-break: normal;
   overflow-wrap: anywhere;
   hyphens: auto;
-  padding-inline: 1.5em;
-  letter-spacing: 0.03em;
 
   h1,
   h2,
@@ -78,17 +78,17 @@ html {
 
   a {
     color: var(--link);
+
     &:hover {
       color: var(--link-hover);
-    }
-
-    &:visited {
-      color: var(--link-visited);
     }
   }
 
   .link {
     text-decoration: underline;
+    &:visited {
+      color: var(--link-visited);
+    }
   }
 
   .broken-link,
@@ -177,7 +177,8 @@ html {
       background: var(--bg-second);
       color: var(--text-base);
       padding: 0.25em 0.6em;
-      border-radius: 0.5em;
+      margin-inline: 1.5em;
+      border-radius: 0.25em;
       font-size: 0.875em;
       white-space: nowrap;
       box-shadow: var(--shadow-md);
@@ -187,13 +188,15 @@ html {
 
   // BLOCKQUOTE
   blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    
     position: relative;
-    margin: 4em auto;
+    margin: 6em auto;
     color: var(--text-muted);
     font-style: italic;
     quotes: "“" "”" "‘" "’";
-    font-style: italic;
-    text-align: center;
 
     p:first-of-type::before {
       content: open-quote;

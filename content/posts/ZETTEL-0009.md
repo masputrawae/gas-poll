@@ -14,15 +14,15 @@ Quis consequat nostrud irure minim id in nulla id culpa enim aliquip labore non 
 
 ## Tautan Terkait
 
-- [[ZETTEL-0006]]
-- [[ZETTEL-0003]]
-- [[ZETTEL-0008]]
-- [[ZETTEL-0007]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0005]]
-- [[ZETTEL-0014]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0012]]
-- [[ZETTEL-0001]]
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0003](/posts/ZETTEL-0003)
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0005](/posts/ZETTEL-0005)
+- [ZETTEL-0014](/posts/ZETTEL-0014)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
 
 *ID: ZETTEL-0009*

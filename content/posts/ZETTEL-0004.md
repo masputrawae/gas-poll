@@ -12,15 +12,15 @@ Proident reprehenderit laboris sunt sit in deserunt amet esse nisi ad sint quis 
 
 > **Catatan**: Pariatur sit excepteur fugiat nostrud cupidatat in non aliqua. Est sit quis eu ut laboris aliqua aliqua et pariatur incididunt. Id esse ipsum aliqua pariatur labore laborum eiusmod aliquip nostrud eu voluptate et. Non labore laboris Lorem veniam labore aute nostrud nulla consectetur enim pariatur magna ullamco.
 
-Lihat juga: [[ZETTEL-0015]]
+Lihat juga: [ZETTEL-0015](/posts/ZETTEL-0015)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0015]]
-- [[ZETTEL-0011]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0005]]
-- [[ZETTEL-0006]]
-- [[ZETTEL-0002]]
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0005](/posts/ZETTEL-0005)
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0002](/posts/ZETTEL-0002)
 
 *ID: ZETTEL-0004*

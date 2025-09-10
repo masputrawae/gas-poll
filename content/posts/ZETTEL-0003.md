@@ -15,17 +15,17 @@ Ex do esse et velit sint amet non pariatur id minim velit incididunt ullamco. El
 echo
 ```
 
-Lihat juga: [[ZETTEL-0015]]
+Lihat juga: [ZETTEL-0015](/posts/ZETTEL-0015)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0006]]
-- [[ZETTEL-0015]]
-- [[ZETTEL-0008]]
-- [[ZETTEL-0004]]
-- [[ZETTEL-0012]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0014]]
-- [[ZETTEL-0011]]
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0014](/posts/ZETTEL-0014)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
 
 *ID: ZETTEL-0003*

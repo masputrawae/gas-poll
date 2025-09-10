@@ -13,13 +13,13 @@ Ex laborum nostrud consectetur voluptate quis officia labore do ipsum Lorem cons
 
 ## Tautan Terkait
 
-- [[ZETTEL-0004]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0003]]
-- [[ZETTEL-0011]]
-- [[ZETTEL-0012]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0015]]
-- [[ZETTEL-0008]]
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0003](/posts/ZETTEL-0003)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0008](/posts/ZETTEL-0008)
 
 *ID: ZETTEL-0007*

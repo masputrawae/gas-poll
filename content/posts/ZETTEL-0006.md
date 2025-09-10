@@ -12,18 +12,18 @@ Nostrud eiusmod quis sint enim elit anim non sint aute. Qui duis laborum aute re
 
 > **Catatan**: Amet reprehenderit magna reprehenderit enim nulla commodo ad Lorem quis culpa ea. Sit et eiusmod aliqua proident laborum pariatur nostrud eu adipisicing ut Lorem. Eu sint proident amet minim duis. Aute qui dolor minim ad id qui voluptate eiusmod ea id laboris. Ad eu veniam amet eu quis sint eu magna id tempor exercitation officia incididunt. Elit sit sint culpa dolor laborum ullamco sunt anim esse. Labore officia officia deserunt qui laboris culpa laboris ullamco ut.
 
-Lihat juga: [[ZETTEL-0007]]
+Lihat juga: [ZETTEL-0007](/posts/ZETTEL-0007)
 
 ## Tautan Terkait
 
-- [[ZETTEL-0008]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0015]]
-- [[ZETTEL-0009]]
-- [[ZETTEL-0014]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0012]]
-- [[ZETTEL-0011]]
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0015](/posts/ZETTEL-0015)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
+- [ZETTEL-0014](/posts/ZETTEL-0014)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
 
 *ID: ZETTEL-0006*

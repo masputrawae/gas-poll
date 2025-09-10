@@ -9,15 +9,15 @@ Amet proident ad dolor irure ad ad reprehenderit non ea. Id sunt dolore tempor c
 
 ## Tautan Terkait
 
-- [[ZETTEL-0014]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0013]]
-- [[ZETTEL-0002]]
-- [[ZETTEL-0007]]
-- [[ZETTEL-0006]]
-- [[ZETTEL-0011]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0009]]
-- [[ZETTEL-0005]]
+- [ZETTEL-0014](/posts/ZETTEL-0014)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0013](/posts/ZETTEL-0013)
+- [ZETTEL-0002](/posts/ZETTEL-0002)
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0006](/posts/ZETTEL-0006)
+- [ZETTEL-0011](/posts/ZETTEL-0011)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
+- [ZETTEL-0005](/posts/ZETTEL-0005)
 
 *ID: ZETTEL-0015*

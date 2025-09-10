@@ -14,12 +14,12 @@ Occaecat labore et sint magna consectetur excepteur mollit. Esse esse magna ea c
 
 ## Tautan Terkait
 
-- [[ZETTEL-0008]]
-- [[ZETTEL-0007]]
-- [[ZETTEL-0004]]
-- [[ZETTEL-0010]]
-- [[ZETTEL-0009]]
-- [[ZETTEL-0001]]
-- [[ZETTEL-0012]]
+- [ZETTEL-0008](/posts/ZETTEL-0008)
+- [ZETTEL-0007](/posts/ZETTEL-0007)
+- [ZETTEL-0004](/posts/ZETTEL-0004)
+- [ZETTEL-0010](/posts/ZETTEL-0010)
+- [ZETTEL-0009](/posts/ZETTEL-0009)
+- [ZETTEL-0001](/posts/ZETTEL-0001)
+- [ZETTEL-0012](/posts/ZETTEL-0012)
 
 *ID: ZETTEL-0011*

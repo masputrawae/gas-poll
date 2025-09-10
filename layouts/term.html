@@ -1,7 +1,4 @@
 {{ define "main" }}
-  {{- $formatMachine := "2006-01-02T15:04:05-07:00" }}
-  {{- $formatHuman := "02 Jan 2006" }}
-
   {{- $title := replaceRE "[-_]+" " " .Title | title }}
   <article class="markdown page">
     <h1>{{ $title }}</h1>
@@ -12,7 +9,7 @@
         {{- $title := replaceRE "[-_]+" " " .Title | title }}
         <li>
           <a href="{{ .RelPermalink }}">{{ $title }}</a> |
-          <time datetime="{{ .Date | time.Format $formatMachine }}">{{ .Date | time.Format $formatHuman }}</time>
+          {{ partial "components/date-time.html" (dict "date" .Date ) }}
         </li>
       {{ end }}
     </ul>
