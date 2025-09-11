@@ -5,7 +5,8 @@ draft = false
 +++
 
 # Hai!, Selamat Datang
-
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
 Exercitation Lorem sit voluptate pariatur. Anim eiusmod mollit est excepteur dolore officia eiusmod. Id ex dolore enim non est incididunt ut. Nisi non ullamco sint ad duis laboris pariatur laborum id ex occaecat. Enim ut exercitation veniam ullamco ad.
 
 - Reprehenderit

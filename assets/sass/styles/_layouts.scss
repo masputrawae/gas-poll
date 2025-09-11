@@ -2,6 +2,7 @@
 @use "../abstracts/mixins" as m;
 @use "../abstracts/variables" as v;
 
+// HEADER
 .header {
   @include m.flex-justify(space-between, center);
   background-color: var(--bg-second);
@@ -32,6 +33,7 @@
   }
 }
 
+// SIDEBAR
 .sidebar {
   @include m.custom-scrollbar(var(--bg-second), var(--text-title));
   @include m.transition(inset-inline-start, visibility);
@@ -78,6 +80,7 @@
 .main {
   padding-block-start: 6em;
   padding-inline: 1em;
+  width: 100%;
   min-height: 100dvh;
 }
 
@@ -127,10 +130,12 @@
   }
 }
 
+// MIN MD
 @include b.min(md) {
   .header__toggle-menu {
     display: none;
   }
+
   .site {
     display: grid;
     grid-template-columns: 13em minmax(0, 1fr);
@@ -161,10 +166,18 @@
   }
 }
 
-@include b.min(2xl) {
+// MIN LG
+@include b.min(lg) {
+  .site {
+    grid-template-columns: 16em minmax(0, 1fr);
+  }
+
+  .sidebar {
+    width: 16em;
+  }
+
   .main {
-    width: 100%;
-    max-width: 87.5em;
-    margin: 0 auto;
+    max-width: 120ch;
+    margin-inline: auto;
   }
 }

@@ -18,7 +18,7 @@
           {{ range .Pages }}
             {{- $title := replaceRE "[-_]+" " " .Title | title }}
             <tr>
-              <td><a href="{{ .RelPermalink }}">{{ $title }}</a></td>
+              <td><a href="{{ .RelPermalink }}" class="internal-link">{{ $title }}</a></td>
               <td>{{ partial "components/date-time.html" (dict "date" .Date ) }}</td>
               <td>{{ partial "components/date-time.html" (dict "date" .Lastmod ) }}</td>
             </tr>

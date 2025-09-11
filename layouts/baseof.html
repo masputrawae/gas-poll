@@ -16,13 +16,13 @@
   {{- partialCached "headed/sass.html" . }}
 </head>
 <body class="site">
-  {{ partial "layouts/header.html" . }}
-  {{ partial "layouts/sidebar.html" . }}
+  {{- partial "layouts/header.html" . }}
+  {{- partial "layouts/sidebar.html" . }}
   <main class="main">{{ block "main" . }}{{ end }}</main>
-  {{ partial "layouts/footer.html" . }}
+  {{- partial "layouts/footer.html" . }}
 
-  {{ partial "components/link-preview.html" . }}
-  {{ partial "components/lightbox.html" . }}
-  {{ partial "headed/js.html" (dict "jsPath" "js/main.js" ) }}
+  {{- partial "components/link-preview.html" . }}
+  {{- partial "components/lightbox.html" . }}
+  {{- partial "headed/js.html" (dict "jsPath" "js/main.js" ) }}
 </body>
 </html>

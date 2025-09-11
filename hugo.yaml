@@ -97,10 +97,6 @@ menus:
       pageRef: /tags
       weight: 30
     
-    - name: CATEGORIES
-      pageRef: /categories
-      weight: 30
-    
     - name: SEARCH
       pageRef: /search
       weight: 40

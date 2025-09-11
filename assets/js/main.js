@@ -7,7 +7,7 @@ function linkPreviewHandler() {
   if (!tooltip)
     return console.warn("⚠️ Tooltip element #linkpreview not found.");
 
-  const elements = document.querySelectorAll("article .link");
+  const elements = document.querySelectorAll("article .internal-link");
   const origin = window.location.origin;
 
   let currentHref = "";
@@ -120,7 +120,7 @@ function linkPreviewHandler() {
 
         // posisikan tooltip
         positionTooltip(target, 10);
-      }, 400);
+      }, 500);
     } catch (err) {
       console.error("Failed to fetch link preview:", err);
     }
