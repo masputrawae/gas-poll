@@ -8,23 +8,6 @@
   {{ partial "layouts/sidebar.html" . }}
   <main class="main">{{ block "main" . }}{{ end }}</main>
   {{ partial "layouts/footer.html" . }}
-  <dialog id="lightbox">
-    <img id="lightbox-img" src="" alt="">
-  </dialog>
-  <style>
-    #lightbox {
-      border: none;
-      padding: 0;
-      background: rgba(0, 0, 0, 0.85);
-      max-width: 90vw;
-      max-height: 90vh;
-    }
-    #lightbox img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
   {{ partial "headed/embed-js.html" . }}
 </body>
 </html>
