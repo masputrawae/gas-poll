@@ -4,15 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-
   {{- partial "headed/init-theme" . }}
   {{- partial "headed/random-page" . }}
   {{- partial "headed/font.html" . }}
   {{- partial "headed/head.html" . }}
-  {{- partial "google_analytics.html" . }}
   {{- partial "opengraph.html" . }}
   {{- partial "schema.html" . }}
   {{- partial "twitter_cards.html" . }}
+  {{- partial "google_analytics.html" . }}
   {{- partialCached "headed/sass.html" . }}
 </head>
 <body class="site">
@@ -20,9 +19,11 @@
   {{- partial "layouts/sidebar.html" . }}
   <main class="main">{{ block "main" . }}{{ end }}</main>
   {{- partial "layouts/footer.html" . }}
-
+  {{- /*  ========================================  */ -}}
   {{- partial "components/link-preview.html" . }}
   {{- partial "components/lightbox.html" . }}
+  {{- partial "headed/mermaid.html" . }}
+  {{- partial "headed/mathjax.html" . }}
   {{- partial "headed/js.html" (dict "jsPath" "js/main.js" ) }}
 </body>
 </html>
