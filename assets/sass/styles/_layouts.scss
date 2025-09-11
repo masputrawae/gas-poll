@@ -60,19 +60,26 @@
 
   &__label {
     font-size: v.$fs-lg;
+    margin-bottom: 0;
+    margin-inline: 0.25em;
+    color: var(--text-muted);
   }
-
+  
   &__hr {
-    margin-block: 1em;
+    margin-inline: 0.25em;
+    margin-block: 0.25em;
   }
 }
 
 .nav {
+  margin-block: 0 3em;
+
   &__link {
     display: inline-block;
     font-size: v.$fs-sm;
     color: var(--text-title);
     width: 100%;
+    font-weight: 600;
   }
 }
 
